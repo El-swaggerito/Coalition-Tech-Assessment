@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+    <title>HealthCare Dashboard</title>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="Images/TestLogo.png" alt="Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#"><img src="Images/home_FILL0_wght300_GRAD0_opsz24@2x.png" alt="Home Icon">    Overview</a></li>
+                <li><a href="#"><img src="Images/group_FILL0_wght300_GRAD0_opsz24@2x.png" alt="Patients Icon">    Patients</a></li>
+                <li><a href="#"><img src="Images/calendar_today_FILL0_wght300_GRAD0_opsz24@2x.png" alt="Schedule Icon">   Schedule</a></li>
+                <li><a href="#"><img src="Images/chat_bubble_FILL0_wght300_GRAD0_opsz24@2x.png" alt="Message Icon">    Message</a></li>
+                <li><a href="#"><img src="Images/credit_card_FILL0_wght300_GRAD0_opsz24@2x.png" alt="Transactions Icon">    Transactions</a></li>
+            </ul>
+        </nav>
+        <div class="nav-img">
+            <div>
+                <img class="header-img" src="Images/senior-woman-doctor-and-portrait-smile-for-health-2023-11-27-05-18-16-utc.png" alt="Dr. Jose Simmons">
+            </div>
+            <div class="title-text">
+                <p>Dr. Jose Simmons</p>
+                <small class="title">General Practitioner</small>
+            </div>
+
+            <div>
+                <img src="Images/more_vert_FILL0_wght300_GRAD0_opsz24.png" alt="More Options">
+                <img src="Images/settings_FILL0_wght300_GRAD0_opsz24.png" alt="Settings">
+                </div>
+            </div>
+    </header>
+
+    <div class="parent">
+
+        <section class="patients">
+            <div>
+                <div class="patient-header">
+                    <h2>Patients</h2>
+                    <img src="Images/search_FILL0_wght300_GRAD0_opsz24.png" alt="Search Icon">
+                </div>
+                <ul>
+                    <li class="patient">
+                        <div class="patient-stat">
+                            <img class="patient-img" src="Images/Layer 8.png" alt="Emily Williams">
+                            <div class="patient-stat-text">
+                                <p>Emily Williams</p>
+                                <small>Female, 18</small>
+                            </div>
+                        </div>
+                        <div>
+                            <img class="vertical-logo" src="Images/more_horiz_FILL0_wght300_GRAD0_opsz24@2x.png" alt="More Options">
+                        </div>
+                    </li>
+                    
+
+                    <li class="patient">
+                        <div class="patient-stat">
+                            <img class="patient-img" src="Images/Layer 1.png" alt="Emily Williams">
+                            <div class="patient-stat-text">
+                                <p>Ryan Johnson</p>
+                                <small>Male, 45</small>
+                            </div>
+                        </div>
+                        <div>
+                            <img class="vertical-logo" src="Images/more_horiz_FILL0_wght300_GRAD0_opsz24@2x.png" alt="More Options">
+                        </div>
+                    </li>
+
+                    <li class="patient">
+                        <div class="patient-stat">
+                            <img class="patient-img" src="Images/Layer 3.png" alt="Emily Williams">
+                            <div class="patient-stat-text">
+                                <p>Bradon Mitchell</p>
+                                <small>Male, 36</small>
+                            </div>
+                        </div>
+                        <div>
+                            <img class="vertical-logo" src="Images/more_horiz_FILL0_wght300_GRAD0_opsz24@2x.png" alt="More Options">
+                        </div>
+                    </li>
+
+                    <li class="patient">
+                        <div class="patient-stat">
+                            <img class="patient-img center" src="" alt="">
+                            <div class="patient-stat-text">
+                                <p class="name"></p>
+                                <small class="gender"></small>
+                            </div>
+                        </div>
+                        <div>
+                            <img class="vertical-logo" src="Images/more_horiz_FILL0_wght300_GRAD0_opsz24@2x.png" alt="More Options">
+                        </div>
+                    </li>
+
+
+                    <li class="patient">
+                        <div class="patient-stat">
+                            <img class="patient-img" src="Images/Layer 6.png" alt="Emily Williams">
+                            <div class="patient-stat-text">
+                                <p>Samantha Johnson</p>
+                                <small>Female, 56</small>
+                            </div>
+                        </div>
+                        <div>
+                            <img class="vertical-logo" src="Images/more_horiz_FILL0_wght300_GRAD0_opsz24@2x.png" alt="More Options">
+                        </div>
+                    </li>
+
+
+                    <li class="patient">
+                        <div class="patient-stat">
+                            <img class="patient-img" src="Images/Layer 12.png" alt="Emily Williams">
+                            <div class="patient-stat-text">
+                                <p>Ashley Martinez</p>
+                                <small>Female, 54</small>
+                            </div>
+                        </div>
+                        <div>
+                            <img class="vertical-logo" src="Images/more_horiz_FILL0_wght300_GRAD0_opsz24@2x.png" alt="More Options">
+                        </div>
+                    </li>
+
+
+                    <li class="patient">
+                        <div class="patient-stat">
+                            <img class="patient-img" src="Images/Layer 10.png" alt="Emily Williams">
+                            <div class="patient-stat-text">
+                                <p>Olivia Brown</p>
+                                <small>Female, 32</small>
+                            </div>
+                        </div>
+                        <div>
+                            <img class="vertical-logo" src="Images/more_horiz_FILL0_wght300_GRAD0_opsz24@2x.png" alt="More Options">
+                        </div>
+                    </li>
+
+
+                    <li class="patient">
+                        <div class="patient-stat">
+                            <img class="patient-img" src="Images/Layer 9.png" alt="Emily Williams">
+                            <div class="patient-stat-text">
+                                <p>Tyler Davis</p>
+                                <small>Female, 19</small>
+                            </div>
+                        </div>
+                        <div>
+                            <img class="vertical-logo" src="Images/more_horiz_FILL0_wght300_GRAD0_opsz24@2x.png" alt="More Options">
+                        </div>
+                    </li>
+
+
+                    <li class="patient">
+                        <div class="patient-stat">
+                            <img class="patient-img" src="Images/Layer 4.png" alt="Emily Williams">
+                            <div class="patient-stat-text">
+                                <p>Kevin Anderson</p>
+                                <small>Male, 30</small>
+                            </div>
+                        </div>
+                        <div>
+                            <img class="vertical-logo" src="Images/more_horiz_FILL0_wght300_GRAD0_opsz24@2x.png" alt="More Options">
+                        </div>
+                    </li>
+
+
+                    <li class="patient">
+                        <div class="patient-stat">
+                            <img class="patient-img" src="Images/Layer 5.png" alt="Emily Williams">
+                            <div class="patient-stat-text">
+                                <p>Dylan Thompson</p>
+                                <small>Male, 36</small>
+                            </div>
+                        </div>
+                        <div>
+                            <img class="vertical-logo" src="Images/more_horiz_FILL0_wght300_GRAD0_opsz24@2x.png" alt="More Options">
+                        </div>
+                    </li>
+
+
+                    <li class="patient">
+                        <div class="patient-stat">
+                            <img class="patient-img" src="Images/Layer 7.png" alt="Emily Williams">
+                            <div class="patient-stat-text">
+                                <p>Nathan Evans</p>
+                                <small>Male, 36</small>
+                            </div>
+                        </div>
+                        <div>
+                            <img class="vertical-logo" src="Images/more_horiz_FILL0_wght300_GRAD0_opsz24@2x.png" alt="More Options">
+                        </div>
+                    </li>
+
+
+                    <li class="patient">
+                        <div class="patient-stat">
+                            <img class="patient-img" src="Images/pexels-photo-1222271.png" alt="Emily Williams">
+                            <div class="patient-stat-text">
+                                <p>Mike Nolan</p>
+                                <small>Male, 31</small>
+                            </div>
+                        </div>
+                        <div>
+                            <img class="vertical-logo" src="Images/more_horiz_FILL0_wght300_GRAD0_opsz24@2x.png" alt="More Options">
+                        </div>
+                    </li>
+
+
+
+                </ul>
+            </div>
+        </section>
+
+
+        <section class="d-history">
+            <h2>Diagnosis History</h2>
+
+            <div class="d-history-content">
+                <div class="blood-pressure">
+                    <h3>Blood Pressure</h3>
+                    <p>Last 6 months</p>
+
+                    <canvas id="myChart" style="width:100%;max-width:500px"></canvas>
+                </div>
+
+                <div class="other-history">
+                    <div class="r-rate">
+                        <img src="Images/respiratory rate.png" alt="">
+                        <p>Respiratory Rate</p>
+                        <h1>20 bpm</h1>
+                        <small>Normal</small>
+                    </div>
+
+                    <div class="temperature">
+                        <img src="Images/temperature.png" alt="">
+                        <p>Temperature</p>
+                        <h1>98.6°F</h1>
+                        <small>Normal</small>
+                    </div>
+
+                    <div class="h-rate">
+                        <img src="Images/HeartBPM.png" alt="">
+                        <p>Heart Rate</p>
+                        <h1>78 bpm</h1>
+                        <small><span><img src="Images/expand_more_FILL0_wght300_GRAD0_opsz24.png" alt=""></span>  Lower than average</small>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="d-list">
+            <h2>Diagnosis List</h2>
+
+            <table>
+                <tr>
+                    <th>Problem/Diagnosis</th>
+                    <th>Description</th>
+                    <th>Status</th>
+                </tr>
+
+                <tr>
+                    <td class="p1"></td>
+                    <td class="d1"></td>
+                    <td class="s1"></td>
+                </tr>
+
+                <tr>
+                    <td class="p2"></td>
+                    <td class="d2"></td>
+                    <td class="s2"></td>
+                </tr>
+
+                <tr>
+                    <td class="p3"></td>
+                    <td class="d3"></td>
+                    <td class="s3"></td>
+                </tr>
+
+                <tr>
+                    <td class="p4"></td>
+                    <td class="d4"></td>
+                    <td class="s4"></td>
+                </tr>
+
+                <tr>
+                    <td>Allergic Rhintis</td>
+                    <td>Seasonal allergies causing nasal congestion</td>
+                    <td>Active</td>
+                </tr>
+            </table>
+        </section>
+
+
+        <section class="display">
+            <img class="center" src="" alt="">
+            <h3 class="name"></h3>
+
+            <div class="display-details">
+                <div class="display-icons">
+                <img src="Images/BirthIcon.png" alt="">
+                </div>
+
+                <div class="display-text">
+                <small>Date Of Birth</small>
+                <p class="dob"></p>
+                </div>
+            </div>
+
+            <div class="display-details">
+                <div class="display-icons">
+                <img src="Images/FemaleIcon.png" alt="">
+                </div>
+
+                <div class="display-text">
+                <small>Gender</small>
+                <p class="gender"></p>
+                </div>
+            </div>
+
+            <div class="display-details">
+                <div class="display-icons">
+                <img src="Images/PhoneIcon.png" alt="">
+                </div>
+
+                <div class="display-text">
+                <small>Contact Info.</small>
+                <p class="contact"></p>
+                </div>
+            </div>
+
+            <div class="display-details">
+                <div class="display-icons">
+                <img src="Images/PhoneIcon.png" alt="">
+                </div>
+
+                <div class="display-text">
+                <small>Emergency Contacts</small>
+                <p class="e-contact"></p>
+                </div>
+            </div>
+
+            <div class="display-details">
+                <div class="display-icons">
+                <img src="Images/InsuranceIcon.png" alt="">
+                </div>
+
+                <div class="display-text">
+                <small>Insurance Provider</small>
+                <p class="insurance"></p>
+                </div>
+            </div>
+
+            <button>Show All Information</button>
+        </section>
+
+
+        <section class="lab-results">
+            <h2>Lab Results</h2>
+
+            <div class="lab-result">
+                <p>Blood Tests</p>
+                <img src="Images/download_FILL0_wght300_GRAD0_opsz24 (1).png" alt="">
+            </div>
+
+            <div class="lab-result">
+                <p>CT Scans</p>
+                <img src="Images/download_FILL0_wght300_GRAD0_opsz24 (1).png" alt="">
+            </div>
+
+            <div class="lab-result">
+                <p>Radiology Reports</p>
+                <img src="Images/download_FILL0_wght300_GRAD0_opsz24 (1).png" alt="">
+            </div>
+
+            <div class="lab-result">
+                <p>X-Rays</p>
+                <img src="Images/download_FILL0_wght300_GRAD0_opsz24 (1).png" alt="">
+            </div>
+
+            <div class="lab-result">
+                <p>Urine Test</p>
+                <img src="Images/download_FILL0_wght300_GRAD0_opsz24 (1).png" alt="">
+            </div>
+
+
+        </section>
+    </div>
+
+    <script src="home.js"></script>
+</body>
+</html>
